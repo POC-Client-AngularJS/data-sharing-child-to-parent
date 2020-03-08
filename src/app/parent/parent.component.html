@@ -1,0 +1,7 @@
+<div class="ds-ctp--app-parent">
+	<h3>Parent Component</h3>
+  <p><b>Value (from ChildComponent):</b></p>
+  <p>{{strValueParent}}</p>
+	<app-child (eventEmittedByChild)="onReceiptEventEmittedByChild($event)">
+  </app-child>
+</div>
